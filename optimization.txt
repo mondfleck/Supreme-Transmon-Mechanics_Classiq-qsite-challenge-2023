@@ -1,0 +1,4 @@
+a) optimized for IBM brisbane
+b) depth 14.
+encoding: each cell is represented by 2 qubits (mapping digits 1 = 00 through 4 = 11), indexed starting from "a0" from left to right, top to bottom. e.g. top-left cell is described by bits "a0","a1", top-right cell is described by bits "a6","a7". Note that qubits "a0", "a13", "a30", "a31" are redundant (as they are given to be 0) so they are not included.
+ 
